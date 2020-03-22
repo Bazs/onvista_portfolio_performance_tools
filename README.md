@@ -15,6 +15,7 @@ The CSV import is under File/Import/CSV Files.
 #### Import further transactions
 After the initial import, any new transactions you perform in your account can be exported via the "Transaktionsliste Wertpapiere" menu in the onvista webapp.
 ![transaktionsliste](doc/transaktionsliste.PNG)
+
 Export to CSV again.
 
 This CSV needs to be converted to a Portfolio Performance-friendly format, using the script `convert_onvista_transaction_list.py`.
