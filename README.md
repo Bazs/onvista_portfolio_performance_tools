@@ -19,7 +19,9 @@ After the initial import, any new transactions you perform in your account can b
 Export to CSV again.
 
 This CSV needs to be converted to a Portfolio Performance-friendly format, using the script `convert_onvista_transaction_list.py`.
-The only argument is `-f`, which should point to the transaction list CSV you've exported from onvista. It'll convert it and place it in the same folder, with the `_import_ready` filename suffix.
+Script was developed in *Python 3.7.*
+
+The only argument is `-f`, which should point to the transaction list CSV you've exported from onvista. It'll create a converted file and place it in the same folder as the input file, with the `_import_ready` filename suffix.
 
 This file can then be imported into Portfolio Performance using the template in this repo called `Portfolio Performance CSV templates\onvista_transaction_list.json`
 
